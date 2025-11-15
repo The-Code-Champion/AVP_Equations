@@ -1,0 +1,19 @@
+/* This is a CSS comment */
+
+/* 1. Rule targeting all <body> elements */
+body {
+    background-color: #000000; /* Property: background color, Value: light gray */
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Rule targeting all <h1> elements */
+h1 {
+    color: darkblue; /* Property: text color, Value: dark blue */
+    text-align: center;
+}
+
+/* 3. Rule targeting elements with the class "button" */
+.button {
+    padding: 10px 20px; /* Property: space inside the element */
+    border-radius: 5px; /* Property: rounded corners */
+}
