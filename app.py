@@ -13,9 +13,9 @@ def equation_web():
 @app.route('/CD_val', methods=['GET','POST'])
 def CD_val():
     if request.method == 'POST':
-        K_val = float(request.form['K'])
-        CDo_val = float(request.form['CDo'])
-        CL_val = float(request.form['CL'])
+        K_val = float(request.form['K_val'])
+        CDo_val = float(request.form['CDo_val'])
+        CL_val = float(request.form['CL_val'])
 
         CD_val = CDo_val + K_val*(CL_val)**2
 
