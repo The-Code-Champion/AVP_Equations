@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def equation_web():
-    if 'CD_Eq' in request.form:
+    if request.method == 'POST' and 'CD_Eq' in request.form.get('equation_type') == 'CD_Eq':
         CD_Eq = request.form['CD_Eq']
         return redirect(url_for('CD_val'))
 
