@@ -17,13 +17,12 @@ def CD_val():
         CDo_val = float(request.form['CDo_val'])
         CL_val = float(request.form['CL_val'])
 
-        CD_val = CDo_val + K_val*(CL_val)**2
+        CD_val_result = CDo_val + K_val*(CL_val)**2
 
-        outputValue = CD_val
+        outputValue = CD_val_result
 
         return render_template('results.html',solutions=outputValue)
     return render_template('CD_val.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
