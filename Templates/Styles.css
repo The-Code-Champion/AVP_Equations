@@ -1,19 +1,39 @@
-/* This is a CSS comment */
+/* All styling rules for the home page */
 
-/* 1. Rule targeting all <body> elements */
 body {
-    background-color: #000000; /* Property: background color, Value: light gray */
     font-family: Arial, sans-serif;
-}
-
-/* 2. Rule targeting all <h1> elements */
-h1 {
-    color: darkblue; /* Property: text color, Value: dark blue */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
 }
 
-/* 3. Rule targeting elements with the class "button" */
-.button {
-    padding: 10px 20px; /* Property: space inside the element */
-    border-radius: 5px; /* Property: rounded corners */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.8em;
 }
