@@ -23,3 +23,6 @@ def CD_val():
 
         return render_template('results.html',solutions=outputValue)
     return render_template('CD_val.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
